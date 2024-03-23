@@ -1,0 +1,79 @@
+.container {
+  position:static;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(95, 162, 224);
+  padding: 20px;
+  border: 1px solid #24e41d;
+  box-shadow: 0 2px 4px rgba(247, 3, 105, 0.89);
+  width: 130%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.anime-carousel-container,
+.anime-list-container {
+  width: 45%;
+}
+
+.anime-carousel,
+.anime-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.anime-card,
+.anime-item {
+  width: calc(33.333% - 1rem);
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  background-color: white;
+}
+
+.anime-image {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.anime-title {
+  font-size: 1.2rem;
+  margin: 0;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #067aee;
+    margin-top: 60px;}

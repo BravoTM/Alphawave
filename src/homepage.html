@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style type="text/css">
+       * {
+        text-decoration: none;
+        }
+        .navbar{
+            background-image: url("./../public/download\ \(1\).jpg");
+            height: 36px;
+            display: flex;
+            justify-content: space-around;
+            border-radius: 6px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding-right: 15px;
+            padding-left: 15px;
+
+        }
+        .navdiv{
+            display: flex;
+            align-items: center;
+            
+            justify-content: space-between;
+
+        }
+        .logo{
+            font-size: 35px;
+            color: rgb(241, 16, 16);
+            font-family: 'Times New Roman';
+            font-weight: 600;
+            
+
+        }
+        li{
+            list-style: none;
+            display: inline-block;
+        }
+        li a{
+            transition: all .3s ease-out;
+            color: rgb(0, 0, 0);
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 25px;
+        }
+
+    button{
+            background-color: aqua;
+            border:0cqmax;
+            padding: 15px;
+            outline: none;
+            
+            margin-top: 20px;
+            border-radius :10px;
+            box-shadow: 0 2px;
+            width: 120px;
+            font-size: 10px;
+            max-height: 40px;
+            motion-path: fill-box;
+
+
+        }
+        
+        </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">AlphaWave</a></div>
+            <UL>
+                <li><a href="#">Home</a>
+                    <li><a href="#">country</a>
+                        <li><a href="#">Explore</a>
+            </UL>
+        </div>  
+        <button ><a href="#singup">Login</a></button>
+        <button><a href="#contactus">Contact Us</a></button>
+        </nav>
+        <style>
+            div{
+                display:flex;
+                justify-content: center;
+                align-items:center;
+                flex-wrap: wrap;
+            }
+            div img{
+                width: 400px;
+                height: 300px;
+                border:2px solid black;
+                border-radius:15px ;
+                box-shadow: 4px 8px 7px 0px black;
+                cursor: pointer;
+                margin: 10px;
+                transition: 800ms;
+
+
+            }
+        </style>
+    <div>
+        <img src="./../public/YUSHU.jpg" alt="" >
+        <img src="./../public/YUSHU.jpg" alt="" >
+        <img src="./../public/YUSHU.jpg" alt="" >
+    
+    
+    </div>
+</body>
+</html>
